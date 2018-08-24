@@ -1,8 +1,8 @@
-# Ionic Native plugin wrapper for cordova-plugin-bluetoothle
+# Ionic Native **v5** plugin wrapper for cordova-plugin-bluetoothle
 
-# ionic-plugin-bluetoothle
+# ionic-plugin-bluetoothle-v5
 
-> [Ionic Native](https://github.com/ionic-team/ionic-native) plugin wrapper for [cordova-plugin-bluetoothle](https://github.com/randdusing/cordova-plugin-bluetoothle)
+> [Ionic Native](https://github.com/ionic-team/ionic-native) **v5** plugin wrapper for [cordova-plugin-bluetoothle](https://github.com/randdusing/cordova-plugin-bluetoothle)
 
 
 
@@ -19,39 +19,10 @@
 
 ## Install
 
-[npm](https://www.npmjs.com/):
-
 ```sh
 npm install ionic-plugin-bluetoothle --save
-```
-
-[yarn](https://yarnpkg.com/):
-
-```sh
-yarn add ionic-plugin-bluetoothle
-```
-
-
-## Install from scratch
-
-
-```sh
-ionic start ionic-bluetoothle blank
-
-cd ionic-bluetoothle
-
-npm install ionic-plugin-bluetoothle --save
-
 ionic cordova plugin add cordova-plugin-bluetoothle
 ```
-
-Edit the files like explained in the [usage](https://github.com/somq/ionic-plugin-bluetoothle#usage) section
-
-```sh
-ionic cordova run android --device -lc
-```
-
-
 
 ## Usage
 
