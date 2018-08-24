@@ -1,6 +1,6 @@
 {
   "name": "ionic-plugin-bluetoothle-v5",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Ionic Native plugin wrapper for cordova-plugin-bluetoothle ",
   "main": "install.js",
   "scripts": {
@@ -20,7 +20,25 @@
     "shipit": "npm run build && npm run readmes && npm run npmpub",
     "postinstall": "npm run build && node ./install.js"
   },
-  "devDependencies": {
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somq/ionic-plugin-bluetoothle-v5.git"
+  },
+  "keywords": [
+    "ble",
+    "bluetooth",
+    "bluetoothle",
+    "cordova",
+    "ionic"
+  ],
+  "author": "somq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/somq/ionic-plugin-bluetoothle-v5/issues"
+  },
+  "homepage": "https://github.com/somq/ionic-plugin-bluetoothle-v5#readme",
+  "dependencies": {
     "@angular/common": "^6.1.3",
     "@angular/compiler": "^6.1.3",
     "@angular/compiler-cli": "^6.1.3",
@@ -66,26 +84,7 @@
     "unminified-webpack-plugin": "^2.0.0",
     "webpack": "^4.17.0",
     "winston": "^3.0.0",
-    "zone.js": "latest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/somq/ionic-plugin-bluetoothle-v5.git"
-  },
-  "keywords": [
-    "ble",
-    "bluetooth",
-    "bluetoothle",
-    "cordova",
-    "ionic"
-  ],
-  "author": "somq",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/somq/ionic-plugin-bluetoothle-v5/issues"
-  },
-  "homepage": "https://github.com/somq/ionic-plugin-bluetoothle-v5#readme",
-  "dependencies": {
+    "zone.js": "latest",
     "ncp": "^2.0.0"
   }
 }
