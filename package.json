@@ -4,7 +4,7 @@
   "description": "Ionic Native plugin wrapper for cordova-plugin-bluetoothle ",
   "main": "install.js",
   "scripts": {
-    "test": "jest",
+    "test": "",
     "test:watch": "jest --watch",
     "build:core": "tsc -p tsconfig.core.json",
     "build:esm": "ts-node -P scripts/tsconfig.json scripts/tasks/build-esm",
