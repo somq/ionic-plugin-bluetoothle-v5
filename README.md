@@ -1,4 +1,8 @@
-# Ionic Native **v5** plugin wrapper for cordova-plugin-bluetoothle
+# [DEPRECATED] Ionic Native **v5** plugin wrapper for cordova-plugin-bluetoothle
+
+> This repo was originally used for the wrapping of the ionic native bluetooth-le plugin while ionic-native-v5 was still a dev branch of the ionic-native repo.  
+> It has been deprecated in favor of https://github.com/somq/ionic-plugin-bluetoothle which has then been added to the ionic plugin repo 🎉
+
 
 # ionic-plugin-bluetoothle-v5
 
